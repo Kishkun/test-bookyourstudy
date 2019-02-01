@@ -319,6 +319,9 @@ body {
     margin: 0 auto;
     margin-top: 25px;
 }
+.main_city{
+    width: 100%;
+}
 .main_online{
     width: 1145px;
     font-weight: bold;
