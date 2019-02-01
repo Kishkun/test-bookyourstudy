@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <title>bookyourstudy</title>
+    <link rel="shortcut icon" href="" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="canonical" href=""/>
+</head>
+<body>
+<header>
+    <div class="header_wrapper">
+        <div class="header_top">
+            <div class="header_logo">
+                <a class="header_logo-title" href="#">
+                    BookYourStudy.com
+                </a>
+            </div>
+            <div class="header_phone">
+                <a class="header_phone-link" href="tel:80177352352">8 017 <span class="header_phone-number">7-352-352</span></a>
+                <span class="header_phone-title">
+                    Связаться с нами
+                </span>
+            </div>
+        </div>
+        <div class="header_bottom">
+            <div class="header_bg">
+                <div class="header_gradient"></div>
+            </div>
+            <div class="header_content">
+                <div class="header_left-block">
+                    <div class="header_info">
+                        <div class="title_info">
+                            BookYourStudy.com
+                        </div>
+                        <div class="header_record">
+                            Запись на учебу в 39 странах мира
+                        </div>
+                        <div class="header_log">
+                            Зарегистрируйтесь в системе, чтобы на самых выгодных условиях изучать иностранные языки,
+                            учиться в школе или университете в любой стране мира. Дешевле и быстрее, чем при прямом
+                            бронировании!
+                        </div>
+                        <div class="header_institution-block">
+                            <div class="institution_course">
+                                <span class="course_number">825</span>
+                                <span class="course_title">Языковых курсови и лагерей</span>
+                            </div>
+                            <div class="institution_course">
+                                <span class="course_number">320</span>
+                                <span class="course_title">Средних школ</span>
+                            </div>
+                            <div class="institution_course">
+                                <span class="course_number">298</span>
+                                <span class="course_title">Университетов</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vector_arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="214" height="46"
+                             viewBox="0 0 214 46">
+                            <image id="Vector_Smart_Object" data-name="Vector Smart Object" width="214" height="46"
+                                   xlink:href="data:img/png;base64,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"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="header_right-block">
+                    <div class="header_start">
+                        <div class="rocket_wrapper">
+                            <img class="rocket_image" src="img/rocket.svg" alt="rocket"/>
+                            <div class="start_title-block">
+                                <div class="title_start">
+                                    Запуск BookYourStudy.com
+                                </div>
+                                <div class="title_data">
+                                    9 Марта 2016
+                                </div>
+                            </div>
+                        </div>
+                        <div class="start_time-block">
+                            <div class="title_time_start">
+                                До запуска отсталось:
+                            </div>
+                            <div class="time_body-block">
+                                <div class="time_body">
+                                    <div class="time_number-wrapper">
+                                        <div class="time_number">5</div>
+                                        <div class="time_number">6</div>
+                                    </div>
+                                    <div class="time_title">дней</div>
+                                </div>
+                                <div class="time_body">
+                                    <div class="time_number-wrapper">
+                                        <div class="time_number">0</div>
+                                        <div class="time_number">5</div>
+                                    </div>
+                                    <div class="time_title">часов</div>
+                                </div>
+                                <div class="time_body">
+                                    <div class="time_number-wrapper">
+                                        <div class="time_number">2</div>
+                                        <div class="time_number">7</div>
+                                    </div>
+                                    <div class="time_title">минут</div>
+                                </div>
+                                <div class="time_body">
+                                    <div class="time_number-wrapper">
+                                        <div class="time_number orange_number">1</div>
+                                        <div class="time_number orange_number">2</div>
+                                    </div>
+                                    <div class="time_title">секунд</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="start_button">
+                            ЗАРЕГИСТРИРОВАТЬСЯ БЕСПЛАТНО
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="main_wrapper">
+        <div class="main_stock">
+            <div class="stock_wrapper">
+                <div class="stock_banner">
+                    <div class="stock_banner-content">
+                        <span class="stock_percent">%</span>
+                        <span class="stock">акция</span>
+                        <span class="stock_price">$100</span>
+                        <span class="stock_booking">на первое бронирование</span>
+                    </div>
+                </div>
+                <div class="discount_block">
+                    <div class="discount_title">
+                        Зарегистрируйтесь прямо сейчас и получите <span class="discount_price">скидку $100</span>
+                        на первое бронирование
+                    </div>
+                    <div class="discount_first-content">
+                        Вы сможете использовать эти  $100 при заказе любой программы обучения в течение 2016 года.
+                    </div>
+                    <div class="discount_second-content">
+                        Полная стоимость обучения (в которую войдут ваши $100) не будет для вас выше, чем при записи на
+                        учебу через сайт школы, и никаких доплат за бронирование мы не возьмем.
+                    </div>
+                    <div class="discount_button">
+                        ЗАРЕГИСТРИРОВАТЬСЯ БЕСПЛАТНО
+                    </div>
+                </div>
+            </div>
+            <div class="main_city-wrapper">
+                <img class="main_city" src="img/city.png" alt="city"/>
+            </div>
+        </div>
+        <div class="main_online">
+            <div class="online_title">
+                Кто бронирует обучение онлайн?
+            </div>
+            <div class="online_body">
+                <div class="online_block">
+                    <div class="online_image-wrapper balance_margin">
+                        <img class="balance_image" src="img/balance.svg" alt="balance"/>
+                    </div>
+                    <div class="online_block-title">
+                        Люди, которые хотят
+                        сэкономить время
+                    </div>
+                    <div class="online_block-text">
+                        Изучить все подходящие предложения на одном сервисе займет столько же, сколько внимательное
+                        исследование 1-2 корпоративных сайтов школ.
+                        В четко структурированном поисковом каталоге вы выбираете курс по нескольким заданным
+                        параметрам. И сразу записываетесь на учебу.
+                    </div>
+                </div>
+                <div class="online_block">
+                    <div class="online_image-wrapper money_margin">
+                        <img class="money_image" src="img/money.svg" alt="money"/>
+                    </div>
+                    <div class="online_block-title">
+                        Люди, которые хотят
+                        сэкономить деньги
+                    </div>
+                    <div class="online_block-text">
+                        Вы платите за обучение не больше, а иногда и меньше, чем заплатили бы школе напрямую. При этом 
+                        заранее вносите только 15-20% в рублях,  остальное — по прибытии. И никаких комиссионных сверху:
+                        вознаграждение наш сервис получает от поставщиков  услуг.
+                    </div>
+                </div>
+                <div class="online_block">
+                    <div class="online_image-wrapper people_margin">
+                        <img class="people_image" src="img/people.svg" alt="people"/>
+                    </div>
+                    <div class="online_block-title">
+                        Люди, которые хотят
+                        экспертной поддержки
+                    </div>
+                    <div class="online_block-text">
+                        Будучи аккредитованным агентством международной сети образовательных консультантов, мы добавляем
+                        в свою базу только качественные школы и вузы, проверяем всю информацию об учебном заведении.
+                        Если вы сомневаетесь в выборе – всегда готовы проконсультировать.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_registration">
+            <div class="registration_discount-wrapper">
+                <div class="registration_discount-content">
+                    <div class="registration_discount-title">
+                        % Акция
+                    </div>
+                    <div class="registration_discount-text">
+                        Получите $100 на первое бронирование в системе зарегистрировавшись прямо сейчас
+                    </div>
+                </div>
+            </div>
+            <div class="registration_mail">
+                <div class="registration_mail-body">
+                    <div class="registration_title">
+                        Регистрация через email:
+                    </div>
+                    <div class="registration_mail-verification">
+                        На указанный вами email будет выслано подтверждение регистрации и временный пароль.
+                    </div>
+                    <form class="verification_form">
+                        <label for="verification"></label>
+                        <input id="verification" class="verification" name="verification" type="text" required="required" />
+                        <button class="verification_button" type="submit">
+                            ЗАРЕГИСТРИРОВАТЬСЯ БЕСПЛАТНО
+                        </button>
+                    </form>
+                    <div class="registration_title">
+                        Регистрация через соц. сети:
+                    </div>
+                    <div class="registration_link">
+                        <a href="#" class="vk_link">
+                            <img class="vk_logo" src="img/vk_logo.svg" alt="vkontakte"/>
+                            <span class="vk_title">Vkontakte</span>
+                        </a>
+                        <a href="#" class="fb_link">
+                            <img class="fb_logo" src="img/fb_logo.svg" alt="facebook"/>
+                            <span class="fb_title">Facebook</span>
+                        </a>
+                        <a href="#" class="google_link">
+                            <img class="google_logo" src="img/google_logo.svg" alt="google"/>
+                            <span class="google_title">Google+</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="registration_social">
+                <div class="registration_social-body">
+                    <div class="registration_title">
+                        Мы в социальных сетях:
+                    </div>
+                    <div class="social_wrapper">
+                        <div class="social_link-vk active_social-link">VK</div>
+                        <div class="social_link-fb">FACEBOOK</div>
+                        <div class="social_link-od">ОДНОКЛАССНИКИ</div>
+                    </div>
+                    <div class="vk_messenger-wrapper">
+                        <img class="vk_messenger" src="img/vk_messenger.png" alt="messenger"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_work">
+            <div class="work_title">
+                Как это работает?
+            </div>
+            <div class="work_body">
+                <div class="work_block">
+                    <div class="work_step-wrapper">
+                        <img class="work_step" src="img/foot.svg" alt="foot"/>
+                        <div class="work_step-title">
+                            <span class="step">ШАГ 1</span>
+                            <span class="step_select">Выбор программы</span>
+                        </div>
+                    </div>
+                    <div class="work_search-system">
+                        С помощью разветвленной системы поиска вы прямо на сервисе находите нужный тип учебного
+                        заведения в желаемой стране, городе, подбираете специализацию и цену обучения, после чего
+                        попадаете на страницу школы.
+                    </div>
+                    <div class="search_wrapper">
+                        <div class="search_image-wrapper">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="166" height="85"
+                                 viewBox="0 0 166 85">
+                                <image id="Ellipse_4" data-name="Ellipse 4" width="166" height="85"
+                                       xlink:href="data:img/png;base64,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"/>
+                            </svg>
+                            <svg class="search_arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="23"
+                                 viewBox="0 0 44 23">
+                                <image id="Shape_25" data-name="Shape 25" width="44" height="23"
+                                       xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAXCAYAAABwOa1vAAABt0lEQVRIic3XP2hUQRDH8U80KoqohYIgpLYQtEthY2FnYQoLCwsbC5E00cYijYWdjWgEG8E/CIpoCNgoGCGFYKGiJIigqAg2gkIwRTQJi3MQj8tx724e3A9e8XZnZ75vmJ3dNzA/PiJBG/EHSxnO2mldkp/1mMEYdtSD+k9ZwAt4jkv4hus4kOT7P2UBF12LstiCU3gVWT8eJZOiTOAvmGwaO4i7+IwL2NNrkEzgoitrjO/GOD7hPg51GyAbeBpv2sxvwDE8w1ucxtYqAbKBi652aLcPE7FJL2NvJ4vqAL6NHxXst2EUs3iCkWiTLVUHcGlxN7pYN4DDeIiPOI9dzUYFeLmG51yPHz2Ei/iKWxheDdzP2oQTeIGXpaf3O3BDpR3eKzU+2B88LbUUm7D09seNi9VgFHu2HuFolz5/xqYtR/2H5sk6Mlw2zJEu1r2OvnwHv9cyqgN4tILfRTyIw2amkwXZwJtxsgO7xhW0PN+rBMgGLi1oZ5v56cjmZGS3srKBz7QYm4/mX+rzXa8BMoHLlXH/qvf3kc2b+JUVJBO4ZPcvpiKbT+PIT1UW8HbM4Wz8edQjrACzZGJ0Jrl5eAAAAABJRU5ErkJggg=="/>
+                            </svg>
+                            <img class="house_image" src="img/house.svg" alt="house"/>
+                        </div>
+                        <form class="search_form">
+                            <label for="search"></label>
+                            <input id="search" class="search" name="search" type="text" placeholder="Search..." />
+                            <img class="search_loupe" src="img/search-image.svg" alt="search"/>
+                        </form>
+                        <div class="work_info">
+                            Параллельно вы можете получить сведения о системе образования в стране, прочесть отзывы
+                            выпускников школы или вуза.
+                        </div>
+                    </div>
+                </div>
+                <div class="work_block">
+                    <div class="work_step-wrapper">
+                        <img class="work_step" src="img/foot.svg" alt="foot"/>
+                        <div class="work_step-title">
+                            <span class="step">ШАГ 2</span>
+                            <span class="step_select">Уточнение условий</span>
+                        </div>
+                    </div>
+                    <div class="work_school">
+                        На странице школы вы изучаете ее программы, узнаете об условиях проживания и занятий.
+                    </div>
+                    <div class="work_cart">
+                        <div class="cart_info">
+                            <div class="cart_logo"></div>
+                            <div class="cart_text">
+                                <span class="cart_long"></span>
+                                <span class="cart_short"></span>
+                                <span class="cart_short"></span>
+                                <span class="cart_long"></span>
+                                <span class="cart_long"></span>
+                                <span class="cart_short"></span>
+                            </div>
+                        </div>
+                        <div class="cart_checkbox-wrapper">
+                            <div class="cart_checkbox-body checkbox_margin">
+                                <div class="cart_checkbox-block">
+                                    <label class="cart_checkbox">
+                                        <input class="checkbox" type="checkbox">
+                                        <div class="checkbox-block"></div>
+                                        <span class="cart_checkbox-text">Accomodation</span>
+                                    </label>
+                                </div>
+                                <div class="cart_checkbox-block">
+                                    <label class="cart_checkbox">
+                                        <input class="checkbox" type="checkbox">
+                                        <div class="checkbox-block"></div>
+                                        <span class="cart_checkbox-text">Transfer</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="cart_checkbox-body">
+                                <div class="cart_checkbox-block">
+                                    <label class="cart_checkbox">
+                                        <input class="checkbox" type="checkbox">
+                                        <div class="checkbox-block"></div>
+                                        <span class="cart_checkbox-text">Visa support</span>
+                                    </label>
+                                </div>
+                                <div class="cart_checkbox-block">
+                                    <label class="cart_checkbox">
+                                        <input class="checkbox" type="checkbox">
+                                        <div class="checkbox-block"></div>
+                                        <span class="cart_checkbox-text">...</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work_cart-info">
+                        Здесь можно будет определиться со сроками,  выбрать вид проживания, добавить дополнительные
+                        услуги (например, трансфер из аэропорта, подбор места проживания, почтовую отправку
+                        приглашения для студенческой визы).
+                    </div>
+                </div>
+                <div class="work_block">
+                    <div class="work_step-wrapper">
+                        <img class="work_step" src="img/foot.svg" alt="foot"/>
+                        <div class="work_step-title">
+                            <span class="step">ШАГ 3</span>
+                            <span class="step_select">Запись/бронирование</span>
+                        </div>
+                    </div>
+                    <div class="work_course">
+                        Вы бронируете курс одним нажатием кнопки, затем вводите информацию о себе.
+                    </div>
+                    <div class="book_button-wrapper">
+                        <div class="book_button">
+                            BOOK EDUCATION
+                        </div>
+                        <img class="hand" src="img/hand.svg" alt="hand"/>
+                    </div>
+                    <div class="work_cart-info">
+                        Далее вам необходимо внести депозит для бронирования места на счет нашего онлайн-сервиса.
+                        Через несколько часов после получения оплаты мы высылаем вам подтверждение бронирования и
+                        приглашение на учебу. Та же процедура может проводиться для заказа проживания.
+                    </div>
+                    <div class="work_done-wrapper">
+                        <div class="work_done-logo">
+                            <span class="rect_first"></span>
+                            <span class="rect_long"></span>
+                            <span class="rect_hort"></span>
+                        </div>
+                        <svg class="work_done_arrow" xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="23"
+                             viewBox="0 0 44 23">
+                            <image id="Shape_25" data-name="Shape 25" width="44" height="23"
+                                   xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAXCAYAAABwOa1vAAABt0lEQVRIic3XP2hUQRDH8U80KoqohYIgpLYQtEthY2FnYQoLCwsbC5E00cYijYWdjWgEG8E/CIpoCNgoGCGFYKGiJIigqAg2gkIwRTQJi3MQj8tx724e3A9e8XZnZ75vmJ3dNzA/PiJBG/EHSxnO2mldkp/1mMEYdtSD+k9ZwAt4jkv4hus4kOT7P2UBF12LstiCU3gVWT8eJZOiTOAvmGwaO4i7+IwL2NNrkEzgoitrjO/GOD7hPg51GyAbeBpv2sxvwDE8w1ucxtYqAbKBi652aLcPE7FJL2NvJ4vqAL6NHxXst2EUs3iCkWiTLVUHcGlxN7pYN4DDeIiPOI9dzUYFeLmG51yPHz2Ei/iKWxheDdzP2oQTeIGXpaf3O3BDpR3eKzU+2B88LbUUm7D09seNi9VgFHu2HuFolz5/xqYtR/2H5sk6Mlw2zJEu1r2OvnwHv9cyqgN4tILfRTyIw2amkwXZwJtxsgO7xhW0PN+rBMgGLi1oZ5v56cjmZGS3srKBz7QYm4/mX+rzXa8BMoHLlXH/qvf3kc2b+JUVJBO4ZPcvpiKbT+PIT1UW8HbM4Wz8edQjrACzZGJ0Jrl5eAAAAABJRU5ErkJggg=="/>
+                        </svg>
+                        <div class="work_done-text">
+                            <img class="work_done-image" src="img/work_done-image.svg" alt="work_done-image"/>
+                            DONE
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_programme">
+            <div class="main_programme-wrapper">
+                <div class="main_programme-content">
+                    <div class="programme_title">
+                        Где найти программу обучения срочно?
+                    </div>
+                    <div class="programme_body">
+                        <div class="programme_block">
+                        <div class="programme_border"></div>
+                        <div class="programme_content">
+                            <div class="programme_body-title">
+                                Studinter.ru
+                            </div>
+                            <a href="#" class="programme_link">www.studinter.ru</a>
+                            <div class="programme_info">
+                                Сайт образовательного агентства Study International. Сопровождение в выборе
+                                обучения среди предложений <br/>
+                                180 школ и 300 вузов.
+                            </div>
+                        </div>
+                    </div>
+                        <div class="programme_block">
+                            <div class="programme_border"></div>
+                            <div class="programme_content">
+                                <div class="programme_body-title">
+                                    AcademConsult.ru
+                                </div>
+                                <a href="#" class="programme_link">www.academconsult.ru</a>
+                                <div class="programme_info">
+                                    Сайт образовательной компании Acadе mConsult. Консультации на всех этапах
+                                    подбора учебной программы.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="programme_block">
+                            <div class="programme_border"></div>
+                            <div class="programme_content">
+                                <div class="programme_body-title">
+                                    UKstudycentre.com
+                                </div>
+                                <a href="#" class="programme_link">www.ukstudycentre.com</a>
+                                <div class="programme_info">
+                                    Сайт образовательного агентства,
+                                    специализирующегося на отправке россиян на учебу в Великобританию.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="programme_body programme_margin">
+                        <div class="programme_block">
+                            <div class="programme_border"></div>
+                            <div class="programme_content">
+                                <div class="programme_body-title">
+                                    HotCourses.ru
+                                </div>
+                                <a href="#" class="programme_link">www.hotcourses.ru</a>
+                                <div class="programme_info">
+                                    Справочник-поисковик вузов и программ за рубежом, проект
+                                    британской компании Hotcourses Ltd.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="programme_block">
+                            <div class="programme_border"></div>
+                            <div class="programme_content">
+                                <div class="programme_body-title">
+                                    StudyAbroad.ru
+                                </div>
+                                <a href="#" class="programme_link">www.studyabroad.ru</a>
+                                <div class="programme_info programme_width">
+                                    Информационная система для самостоятельного подбора программ обучения за рубежом,
+                                    прямая связь с вузами.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="programme_block">
+                            <div class="programme_border"></div>
+                            <div class="programme_content">
+                                <div class="programme_body-title">
+                                    StudyGlobe.ru
+                                </div>
+                                <a href="#" class="programme_link">www.studyglobe.ru</a>
+                                <div class="programme_info">
+                                    Некоммерческий контент-проект об обучении за рубежом, особенностях систем образования в разных странах.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_form-registration">
+            <div class="form-registration-body">
+                <div class="form-registration-block">
+                    <div class="registration_title">
+                        Регистрация через email:
+                    </div>
+                    <div class="registration_mail-verification">
+                        На указанный вами email будет выслано подтверждение регистрации и временный пароль.
+                    </div>
+                    <form class="verification_form">
+                        <label for="form_verification"></label>
+                        <input id="form_verification" class="verification" name="form_verification" type="text" required="required">
+                        <button class="verification_button" type="submit">
+                            ЗАРЕГИСТРИРОВАТЬСЯ БЕСПЛАТНО
+                        </button>
+                    </form>
+                </div>
+                <div class="form-registration-block block_border">
+                    <div class="registration_title">
+                        Регистрация через соц. сети:
+                    </div>
+                    <div class="registration_link registration_link-margin">
+                        <a href="#" class="vk_link">
+                            <img class="vk_logo" src="img/vk_logo.svg" alt="vkontakte">
+                            <span class="vk_title">Vkontakte</span>
+                        </a>
+                        <a href="#" class="fb_link">
+                            <img class="fb_logo" src="img/fb_logo.svg" alt="facebook">
+                            <span class="fb_title">Facebook</span>
+                        </a>
+                        <a href="#" class="google_link">
+                            <img class="google_logo" src="img/google_logo.svg" alt="google">
+                            <span class="google_title">Google+</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="form-registration-block block_border">
+                    <div class="registration_title">
+                        Регистрация для школ:
+                    </div>
+                    <div class="registration_mail-verification mail_margin">
+                        Хотите привлекать студентов через наш сервис?
+                    </div>
+                    <div class="form-registration-button">
+                        ЗАРЕГИСТРИРОВАТЬ ШКОЛУ
+                        <svg class="button_arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8"
+                             height="13" viewBox="0 0 8 13">
+                            <image id="Shape_37" data-name="Shape 37" width="8" height="13"
+                                   xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAANCAYAAACUwi84AAAAWUlEQVQYlWP4//8/CGf8//9fFMpGwSAi5z8EXMGmCESIQSX/Y1MEY4jiUoRsHFZF6I5CVvQMxMdw9f///zX+////A6poFUkm4HUDXl8QDAeCIYk7Lv7/ZwAADLFV8b6X4FIAAAAASUVORK5CYII="/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="footer_wrapper">
+        <div class="footer_body">
+            <div class="footer_left-content">
+                <div class="footer_logo-wrapper">
+                    <a class="footer_logo" href="index.html">
+                        BookYourStudy.com
+                    </a>
+                </div>
+                <div class="footer_low">
+                    2016 All rights reserved
+                </div>
+            </div>
+            <div class="footer_right-content">
+                <div class="footer_phone">
+                    <a class="footer_phone-link" href="tel:80177352352">8 017 <span class="footer_phone-number">7-352-352</span></a>
+                    <span class="footer_phone-title">
+                    Связаться с нами
+                </span>
+                </div>
+                <div class="footer_social-link">
+                    <a class="footer_link" href="#">
+                        <img class="footer_vk" src="img/footer_vk.svg" alt="vk"/>
+                    </a>
+                    <a class="footer_link" href="#">
+                        <img class="footer_fb" src="img/footer_fb.svg" alt="fb"/>
+                    </a>
+                    <a class="footer_link" href="#">
+                        <img class="footer_google" src="img/footer_google.svg" alt="google"/>
+                    </a>
+                    <a class="footer_link" href="#">
+                        <img class="footer_twitter" src="img/footer_twitter.svg" alt="twitter"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="103" height="88" viewBox="0 0 103 88">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f47d50;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M558,2628H536v-8h22v8Zm-19,0H465v-8h74v8Zm-4,0H488v-8h47v8Zm0-52H488v-5h47v5Zm0,52H488v-5h47v5Zm-37-12h-9v-36h9v36Zm1,3H488v-2h11v2Zm12,0H500v-2h11v2Zm12,0H512v-2h11v2Zm12,0H524v-2h11v2Zm-36-40H488v-2h11v2Zm12,0H500v-2h11v2Zm12,0H512v-2h11v2Zm12,0H524v-2h11v2Zm-25,37h-9v-36h9v36Zm12,0h-9v-36h9v36Zm12,0h-9v-36h9v36Zm-46-45,23.5-16,23.5,16H488Zm-28,30,11.226-8H487v8H460Zm76-8h16.131L563,2601H536v-8Zm-24-37h-1v-16h1v16Zm13-6H511v-8h14v8Zm11,52v17h22v-17H536Zm10,13h-6v-1.6h6v1.6Zm0-3h-6v-1.6h6v1.6Zm0-3h-6v-1.6h6v1.6Zm8,6h-6v-1.6h6v1.6Zm0-3h-6v-1.6h6v1.6Zm0-3h-6v-1.6h6v1.6Zm-89-7v17h22v-17H465Zm10,13h-6v-1.6h6v1.6Zm0-3h-6v-1.6h6v1.6Zm0-3h-6v-1.6h6v1.6Zm8,6h-6v-1.6h6v1.6Zm0-3h-6v-1.6h6v1.6Zm0-3h-6v-1.6h6v1.6Z" transform="translate(-460 -2540)"/>
+</svg>
